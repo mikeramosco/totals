@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/labelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:background="@drawable/transition_layout_rounded_border">
+
+        <TextView
+            android:id="@+id/labelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/myGoalsProfileTitle"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/color_theme"/>
+
+        <ImageView
+            android:id="@+id/removeLabelButton"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:layout_marginEnd="@dimen/_6sdp"
+            android:src="@drawable/ic_remove"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

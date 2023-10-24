@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileInfoPageActivity">
+
+    <LinearLayout
+        android:id="@+id/editProfilePageParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_8sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <LinearLayout
+                android:id="@+id/backButtonDisabled"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:background="@drawable/transition_button_icon"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_arrow_back_disabled" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/backButton"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:background="@drawable/transition_button_icon">
+
+                <ImageView
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_arrow_back_white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="@string/editProfileTitle"
+                android:textColor="@color/colorTextTitle"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <LinearLayout
+                android:id="@+id/progressCircle"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/ic_circle_filled_disabled"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:indeterminateDrawable="@drawable/progress_circle"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/saveButton"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/transition_button_icon_colored">
+
+                <ImageView
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_check" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/profilePhotoSectionTitle"
+            android:textColor="@color/colorTextSectionTitle"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <LinearLayout
+            android:id="@+id/profilePhotoLayout"
+            android:layout_width="@dimen/_75sdp"
+            android:layout_height="@dimen/_75sdp"
+            android:layout_gravity="center">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_circle_filled_colored">
+
+                    <ImageView
+                        android:id="@+id/profilePhotoImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerCrop"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/profilePhotoLetter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/audiowide"
+                    android:text="S"
+                    android:textColor="@color/color_primary_dark"
+                    android:textSize="@dimen/_25sdp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"/>
+
+                <LinearLayout
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:gravity="center"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:background="@drawable/ic_circle_filled_gray">
+
+                    <ImageView
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_edit"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/nameSectionTitle"
+            android:textColor="@color/colorTextSectionTitle"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorTextHint"
+            android:hint="@string/enter_name_page_hint"
+            android:backgroundTint="@color/color_accent_light"
+            android:inputType="text|textCapSentences"
+            android:maxLength="@integer/maxNameCharacters"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/usernameSectionTitle"
+            android:textColor="@color/colorTextSectionTitle"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorTextHint"
+            android:hint="@string/createUsernameFieldHint"
+            android:backgroundTint="@color/color_accent_light"
+            android:maxLength="@integer/maxUsernameCharacters"
+            android:inputType="text|textCapSentences"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._"/>
+
+        <TextView
+            android:id="@+id/usernameTakenErrorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:text="@string/usernameTakenError"
+            android:textColor="@color/colorTextError"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/profileBioSectionTitle"
+            android:textColor="@color/colorTextSectionTitle"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/profileBioField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/colorTextHint"
+            android:hint="@string/profileBioFieldHint"
+            android:backgroundTint="@color/color_accent_light"
+            android:inputType="text|textCapSentences"
+            android:maxLength="@integer/maxProfileBioCharacters"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

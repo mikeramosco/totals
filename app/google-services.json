@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685151911109",
+    "project_id": "totals-2659d",
+    "storage_bucket": "totals-2659d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685151911109:android:abdecdd5814decd73504ac",
+        "android_client_info": {
+          "package_name": "com.justanotherdeveloper.totalslite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685151911109-st7mmav3edg0s7ivcbgb6m3mj0qqrvva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4eJYQAebmxS8i_GCoqnbwONMuUkYfvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685151911109-st7mmav3edg0s7ivcbgb6m3mj0qqrvva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

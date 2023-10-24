@@ -1,0 +1,377 @@
+<resources>
+
+    <!--  App Title  -->
+    <string name="app_name">Totals</string>
+    <string name="logo_string">T 0 T A L 5</string>
+
+    <!--  General  -->
+    <string name="option_skip">Skip</string>
+    <string name="option_continue">Continue</string>
+    <string name="option_get_started">Get started</string>
+    <string name="option_ok">OK</string>
+    <string name="option_logout">Log out</string>
+    <string name="option_stay_logged_in">Stay logged in</string>
+    <string name="option_keep_editing">Keep editing</string>
+    <string name="option_close">Close page</string>
+    <string name="option_remove">Remove</string>
+    <string name="option_cancel">Cancel</string>
+    <string name="option_save">Save</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_next">Next</string>
+    <string name="option_send">Send</string>
+    <string name="option_accept">Accept</string>
+    <string name="option_unfollow">Unfollow</string>
+    <string name="option_block_user">Block user</string>
+    <string name="option_uninvite">Uninvite</string>
+    <string name="option_unblock">Unblock</string>
+    <string name="option_report">Submit report</string>
+
+    <string name="tooManyRequestsError">Too many requests sent. Please try again later.</string>
+    <string name="requestUnavailableError">Sorry, we cannot process this request at this time. Please try again later.</string>
+    <string name="copiedToClipboardMessage">Text copied to clipboard.</string>
+    <string name="httpsString">https://</string>
+    <string name="httpString">http://</string>
+    <string name="searchFieldHint">Search users</string>
+
+    <!--  Intro Page  -->
+    <string name="introText1">Welcome to Totals,\n\n\n\na social\nproductivity app</string>
+    <string name="introText2">Keep up with your\nfriends\' progress\n\nand help them stay\non top of their goals</string>
+    <string name="introText3">Add &amp; complete goals\nby capturing a live photo\nbefore your set due time</string>
+    <string name="introText4">Missed your due date?\nIt\'s OK!\n\n\nThere\'s still a 24-hour\ngrace period to post\nbefore time is up!</string>
+
+    <!--  Shared Page  -->
+    <string name="invitesSectionTitle">Invites</string>
+    <string name="profilesSectionTitle">Following</string>
+    <string name="blockUserOption">Block invites from this user</string>
+    <string name="unfollowProfileOption">Unfollow profile</string>
+    <string name="openProfileOption">Open profile</string>
+    <string name="unfollowProfilePrompt">Are you sure you want to\nunfollow this profile?</string>
+    <string name="blockUserPrompt">Are you sure you want to block invites from this user?</string>
+    <string name="blockUserDetails">You will also unfollow any other profiles you are currently following from this user.</string>
+    <string name="newPostsCountText">%1$s new posts</string>
+    <string name="oneNewPostCountText">1 new post</string>
+
+    <!--  Me Page  -->
+    <string name="allGoalsFilterOption">All Goals</string>
+    <string name="myGoalsProfileTitle">My Goals</string>
+    <string name="scheduleSectionTitle">Schedule</string>
+    <string name="activeSectionTitle">Due Now</string>
+    <string name="goalViewDateTextString">%1$s at %2$s</string>
+    <string name="goalViewSingleDateTextString">Due: %1$s</string>
+    <string name="goalViewNextDateTextString">Next Due: %1$s</string>
+    <string name="goalViewProgressTextString">%1$s completed</string>
+    <string name="goalPostedString">Current goal ended</string>
+    <string name="postCountString">(%1$s posts)</string>
+    <string name="timeRemainingString">Time remaining: %1$s</string>
+    <string name="tapToPostNowString">Tap to post now!</string>
+    <string name="dayDueString">Due %1$s</string>
+    <string name="timeDueString">at %1$s</string>
+    <string name="xOthersString">%1$s others</string>
+    <string name="xAndYString">%1$s and %2$s</string>
+    <string name="xLikedAPostString">%1$s liked a post</string>
+    <string name="postLikesNotifsTitle">Post Likes</string>
+    <string name="postLikesNotifsDetails">%1$s Profile</string>
+
+    <!--  Me Page Dialogs  -->
+    <string name="markAsIncompletePrompt">Are you sure you want to post this goal as incomplete?</string>
+    <string name="markAsNotRequiredPrompt">Are you sure you want to post this goal as not required?</string>
+    <string name="deleteAndMarkAsIncompletePrompt">Delete post &amp; repost as incomplete?</string>
+    <string name="deleteAndMarkAsNotRequiredPrompt">Delete post &amp; repost as not required?</string>
+    <string name="markAsNotRequiredForDateOption">Post as not required for %1$s</string>
+    <string name="markAsIncompleteForDateOption">Post as incomplete for %1$s</string>
+    <string name="markAsIncompleteOption">Post as incomplete</string>
+    <string name="markAsNotRequiredOption">Post as not required</string>
+    <string name="incompleteDetailsString">incomplete for %1$s</string>
+    <string name="notRequiredDetailsString">not required for %1$s</string>
+    <string name="postGoalProgressOption">Post a photo to complete this goal</string>
+    <string name="editGoalOption">Edit goal</string>
+    <string name="deleteGoalOption">Delete goal</string>
+    <string name="deleteGoalPrompt">Are you sure you want\nto permanently delete\nthis goal?</string>
+    <string name="selectLabelTitle">Select a Label</string>
+    <string name="postPreviewHeader">Post Preview:</string>
+
+    <!--  Progress Page  -->
+    <string name="progressPageTitle">%1$s Profile</string>
+    <string name="progressPageTitleDetails">Posts by %1$s</string>
+    <string name="totalsSectionTitle">Totals</string>
+    <string name="postsSectionTitle">Posts</string>
+    <string name="postViewDateTextString">Goal: %1$s at %2$s</string>
+    <string name="postViewPostedTextString">Posted: %1$s at %2$s</string>
+    <string name="percentGoalsCompletedLabelString">of Goals Completed</string>
+    <string name="percentGoalsCompletedInfoString">Based on the last 100 attempted goals</string>
+    <string name="totalGoalsCompletedLabelString">Total Goals Completed</string>
+    <string name="goalTitleCompletedLabelString">%1$s</string>
+    <string name="seeAllTotalsOption">View all</string>
+    <string name="postAttachmentsTitle">Attachments</string>
+    <string name="attachmentsUpdatedMessage">Attachments updated</string>
+    <string name="labelsUpdatedMessage">Labels updated</string>
+    <string name="sendProfileToText">Send %1$s Profile</string>
+    <string name="profileSentMessage">Profile sent</string>
+    <string name="confirmUninviteUserPrompt">Are you sure you want\nto uninvite this user?</string>
+    <string name="confirmRemoveFollowerPrompt">Are you sure you want\nto remove this follower?</string>
+    <string name="invitedSectionTitle">Invited</string>
+    <string name="followersSectionTitle">Followers</string>
+    <string name="userUninvitedMessage">User uninvited</string>
+    <string name="followerRemovedMessage">Follower removed</string>
+    <string name="titleAndTimeDueString">%1$s at %2$s</string>
+
+    <!--  Progress Page Dialogs  -->
+    <string name="reportOption">Report post</string>
+    <string name="reportInfo">Call authorities for immediate emergencies</string>
+    <string name="setTotalsTodayOption">Reset totals for posts after today</string>
+    <string name="setTotalsAllPostsOption">Reset totals for all posts</string>
+    <string name="showingTotalsForDateInfo">Currently set for posts after %1$s</string>
+    <string name="sendProfileOption">Send profile to other users</string>
+    <string name="manageFollowersOption">Manage profile followers</string>
+    <string name="profileFollowersTitle">Manage profile followers</string>
+    <string name="startGoalLikeThisOption">Start a goal like this</string>
+    <string name="startGoalLikeThisInfo">Opens a new goal copying info from this post</string>
+    <string name="closePostAttachmentsPageDialogDetails">The changes to your post\'s\nattachments will not be saved.</string>
+    <string name="closeManageLabelsPageDialogDetails">The changes to your post\'s\nlabels will not be saved.</string>
+    <string name="repostAsIncompleteOption">Repost as incomplete</string>
+    <string name="repostAsIncompleteInfo">Post will be deleted &amp; reposted as incomplete</string>
+    <string name="repostAsNotRequiredOption">Repost as not required</string>
+    <string name="repostAsNotRequiredInfo">Post will be deleted &amp; reposted as not required</string>
+    <string name="seeAttachmentsOption">See attachments</string>
+    <string name="manageAttachmentsInfo">Manage notes &amp; links attached to this post</string>
+    <string name="bothAttachedInfo">Notes &amp; links are attached to this post</string>
+    <string name="notesAttachedInfo">Notes are attached to this post</string>
+    <string name="linksAttachedInfo">Links are attached to this post</string>
+    <string name="includedLabelsInfo">Labels: %1$s</string>
+    <string name="deletePostOption">Delete post</string>
+    <string name="deletePostInfo">This action will repost this goal as incomplete.</string>
+    <string name="seePostLikesOption">See post likes</string>
+    <string name="peopleLikedInfo">%1$s people liked this post</string>
+    <string name="personLikedInfo">1 person liked this post</string>
+    <string name="confirmDeletePostPrompt">Are you sure you want\nto delete this post?</string>
+    <string name="confirmDeletePostMessage">Deleting this post will count against your totals.</string>
+    <string name="seePhotoOption">See photo</string>
+    <string name="seePhotoInfo">Opens the photo taken for this post</string>
+    <string name="resetTotalsTodayDialogPrompt">Reset the Totals for\ngoals posted after today?</string>
+    <string name="resetTotalsTodayDialogDetails">The totals will disregard all past posts.</string>
+    <string name="resetTotalsAllDialogPrompt">Reset the Totals to\nreflect all posted goals?</string>
+    <string name="resetTotalsAllDialogDetails">The totals will reset to show all\ngoals posted since the beginning.</string>
+    <string name="resetTotalsString">Reset totals</string>
+    <string name="totalsUpdatedMessage">Totals updated</string>
+    <string name="profileTotalsPageTitle">%1$s Profile Totals</string>
+    <string name="reportHint">Reason for report</string>
+    <string name="reportPostPrompt">Report post</string>
+    <string name="emptyReportReasonMessage">Please provide a brief description on why you are reporting this post.</string>
+    <string name="postReportedMessage">Post reported</string>
+    <string name="postAgainstStandardsPrompt">Your post was deleted</string>
+    <string name="postAgainstStandardsDetails">Your post of \"%1$s\" posted on %2$s was deleted (&amp; reposted as not required) because it went against our community standards.\n\nFor further inquiries, please email: totalsproductivityapp@gmail.com</string>
+    <string name="userBannedPrompt">You have been banned</string>
+    <string name="userBannedDetails">After reviewing your account, we found that your activity went against our community standards.\n\nFor further inquiries, please email: totalsproductivityapp@gmail.com</string>
+
+    <!--  Create Post Page  -->
+    <string name="createPostPageTitle">Create Post</string>
+    <string name="retakePhotoOption"><u>Retake Photo</u></string>
+    <string name="closeCreatePostPageDialogDetails">The changes to your post\nwill not be saved.</string>
+    <string name="addACaptionOption">Tap here to add a caption</string>
+    <string name="addACaptionHint">Add a caption</string>
+    <string name="goalAmountRequiredMessage">Goal amount cannot be blank for this post.</string>
+    <string name="progressPostedMessage">Posted!</string>
+    <string name="permissionsRequiredMessage">Camera &amp; storage permissions must be allowed to post a photo.</string>
+    <string name="photoPostWarningMessage">Important: Be careful not to post any photos exposing you or your information.</string>
+
+    <!--  View Photo Page Text  -->
+    <string name="viewPhotoTitle">View image</string>
+    <string name="unableToDownloadPhotoError">Unable to save image</string>
+    <string name="photoAlreadyDownloadedMessage">Image already saved</string>
+    <string name="photoDownloadedMessage">Image saved</string>
+
+    <!--  Edit Goal Page  -->
+    <string name="createNewActivityTitle">Add Goal</string>
+    <string name="editActivityTitle">Edit Goal</string>
+    <string name="notesSectionTitle">NOTES</string>
+    <string name="linksSectionTitle">LINKS</string>
+    <string name="goalAmountHint"># of</string>
+    <string name="unitsHint">Units</string>
+    <string name="activityTitleHint">Title</string>
+    <string name="setADateOption">Set a Date</string>
+    <string name="setATimeOption">Set a Time</string>
+    <string name="addLabelOption">Add Label</string>
+    <string name="includeGoalAmountOption">Track an Amount</string>
+    <string name="cantChangeAmountWhileGoalEndedMessage">Amount cannot be changed right now since the current goal has ended.</string>
+    <string name="setDateString">Set date</string>
+    <string name="goalTitleRequiredMessage">Your goal must have a title.</string>
+    <string name="goalAmountMoreThanCompletedMessage">The goal amount must be more than the amount you\'ve already completed. (%1$s)</string>
+    <string name="linkLabel">Link:</string>
+    <string name="noteLabel">Note:</string>
+    <string name="goalAddedMessage">Goal added</string>
+    <string name="goalUpdatedMessage">Goal updated</string>
+    <string name="activeString">Active</string>
+    <string name="inactiveString">Inactive</string>
+
+    <!--  Edit Goal Dialogs  -->
+    <string name="manageLabelsTitle">Manage Labels</string>
+    <string name="manageLabelsInfo">At least one label must be selected.</string>
+    <string name="addNewLabelHint">Add label</string>
+    <string name="removeLabelPrompt">Are you sure you want\nto remove this label?</string>
+    <string name="oneLabelRequiredMessage">Unable to remove label.</string>
+    <string name="addDateInfo">Choose a date to complete this goal</string>
+    <string name="repeatString">Repeat</string>
+    <string name="repeatInfo">Choose which days to complete this goal</string>
+    <string name="removeFromCalendarString">Remove from calendar</string>
+    <string name="removeFromCalendarInfo">Clears added date &amp; repeating days</string>
+    <string name="repeatEveryString">Repeat every &#8230;</string>
+    <string name="addNoteHint">Add note</string>
+    <string name="noteDialogTitle">NOTE</string>
+    <string name="deleteNotePrompt">Are you sure you want\nto delete this note?</string>
+    <string name="addLinkHint">Add link</string>
+    <string name="deleteLinkPrompt">Are you sure you want\nto delete this link?</string>
+    <string name="allowedLabelDigits">_-0123456789 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="closeEditGoalPageDialogDetails">The changes to your goal\nwill not be saved.</string>
+    <string name="dateAndTimePermanentMessage">When goal is saved, date &amp; time cannot be changed.</string>
+    <string name="chooseCalendarDialogTitle">Choose Calendar Method</string>
+    <string name="chooseCalendarDialogDetails">Date &amp; time are required to save a goal</string>
+
+    <!--  Recency Strings  -->
+    <string name="secondsAgoString">a few seconds ago</string>
+    <string name="minuteAgoString">1 minute ago</string>
+    <string name="minutesAgoString">%1$s minutes ago</string>
+    <string name="hourAgoString">1 hour ago</string>
+    <string name="hoursAgoString">%1$s hours ago</string>
+
+    <!--  Date Texts  -->
+    <string name="xDaysAgoString">%1$s days ago</string>
+    <string name="inXDaysString">In %1$s days</string>
+    <string name="xWeeksAgoString">%1$s weeks ago</string>
+    <string name="inXWeeksString">In %1$s weeks</string>
+    <string name="xMonthsAgoString">%1$s months ago</string>
+    <string name="inXMonthsString">In %1$s months</string>
+    <string name="xYearsAgoString">%1$s years ago</string>
+    <string name="inXYearsString">In %1$s years</string>
+
+    <!--  Plural Days  -->
+    <string name="sundaysString">Sundays</string>
+    <string name="mondaysString">Mondays</string>
+    <string name="tuesdaysString">Tuesdays</string>
+    <string name="wednesdaysString">Wednesdays</string>
+    <string name="thursdaysString">Thursdays</string>
+    <string name="fridaysString">Fridays</string>
+    <string name="saturdaysString">Saturdays</string>
+
+    <!--  Day Abbreviations  -->
+    <string name="sunString">SUN</string>
+    <string name="monString">MON</string>
+    <string name="tueString">TUE</string>
+    <string name="wedString">WED</string>
+    <string name="thuString">THU</string>
+    <string name="friString">FRI</string>
+    <string name="satString">SAT</string>
+
+    <!--  Day Letters  -->
+    <string name="sunLetter">S</string>
+    <string name="monLetter">M</string>
+    <string name="tueLetter">T</string>
+    <string name="wedLetter">W</string>
+    <string name="thuLetter">Th</string>
+    <string name="friLetter">F</string>
+    <string name="satLetter">S</string>
+
+    <!--  Frequency Text  -->
+    <string name="weekdaysString">Weekdays</string>
+    <string name="weekendsString">Weekends</string>
+    <string name="everydayString">Everyday</string>
+
+    <!--  Date Texts  -->
+    <string name="todayString">Today</string>
+    <string name="tomorrowString">Tomorrow</string>
+    <string name="yesterdayString">Yesterday</string>
+
+    <!--  Settings Page  -->
+    <string name="confirmLogoutDialogPrompt">Are you sure you\nwant to log out?</string>
+    <string name="closePageDialogPrompt">Are you sure you want\nto close this page?</string>
+    <string name="confirmUnblockUserPrompt">Are you sure you want\nto unblock this user?</string>
+    <string name="missedDueDateActionOption">Choose missed due time action</string>
+    <string name="setInactiveOption">Set inactive</string>
+    <string name="missedDueDateSetInactiveSelectedDetails">Sets goal inactive if due time missed</string>
+    <string name="missedDueDateSetAutoPostsAsIncompleteDetails">Auto-posts as incomplete if due time missed</string>
+    <string name="manageBlockedUsersOption">Manage blocked users</string>
+    <string name="blockedUsersTitle">Blocked users</string>
+    <string name="userUnblockedMessage">User unblocked</string>
+    <string name="noBlockedUsersMessage">No blocked users to show</string>
+    <string name="aboutTotalsOption">About Totals</string>
+    <string name="aboutTotalsDetails">Community standards &amp; legal policies</string>
+
+    <!--  Edit Profile Text  -->
+    <string name="editProfileTitle">Edit Info</string>
+    <string name="profileBioFieldHint">Profile bio</string>
+    <string name="closeEditProfilePageDialogDetails">The changes to your profile\nwill not be saved.</string>
+    <string name="profilePhotoSectionTitle">PROFILE PHOTO</string>
+    <string name="nameSectionTitle">NAME</string>
+    <string name="usernameSectionTitle">USERNAME</string>
+    <string name="profileBioSectionTitle">BIO</string>
+
+    <string name="choosePhotoTitle">Choose a Photo</string>
+    <string name="fromCameraOption">From Camera</string>
+    <string name="fromGalleryOption">From Gallery</string>
+    <string name="removePhotoOption">Remove Photo</string>
+
+    <!--  Enter Name Page  -->
+    <string name="enter_name_page_title">Name</string>
+    <string name="enter_name_page_prompt">Welcome to Totals!\nWhat do we call you?</string>
+    <string name="enter_name_page_hint">Your name</string>
+
+    <!--  Enter Birthday Page  -->
+    <string name="enterBirthdayPageTitle">Birthday</string>
+    <string name="enterBirthdayPagePrompt">Hi %1$s!\nNext, we need your birthday.</string>
+    <string name="enterBirthdayPageDetails">This tells us if you\'re old enough to use Totals.</string>
+    <string name="enterMonthFieldHint">MM</string>
+    <string name="enterDayFieldHint">DD</string>
+    <string name="enterYearFieldHint">YYYY</string>
+    <string name="invalidBirthdayError">This birthday is invalid.</string>
+    <string name="ageRestrictionError">Sorry, you\'re too young\nto use Totals.</string>
+    <string name="ageRestrictionError2">Age requirement is 13 and older.</string>
+
+    <!--  Enter Phone Number Page  -->
+    <string name="enterPhoneNumberPageTitle">Phone Number</string>
+    <string name="enterPhoneNumberPagePrompt">Your account will be created using your phone number.</string>
+    <string name="enterPhoneNumberPageDetails">By tapping \"Continue\", you agree to our Privacy Policy and Terms of Service.</string>
+    <string name="enterPhoneNumberFieldHint">(555) 555\-5555</string>
+    <string name="phoneNumberVerificationError">@string/requestUnavailableError</string>
+    <string name="learnMoreString"><u>Learn more</u></string>
+
+    <!--  Enter Verification Code Page  -->
+    <string name="enterVerificationCodePageTitle">Verification</string>
+    <string name="enterVerificationCodePrompt">Please enter the verification code sent to %1$s</string>
+    <string name="enterVerificationPageDetails">If you haven\'t received the verification code, try closing &amp; restarting the app.</string>
+    <string name="enterVerificationCodeFieldHint">• • • • • •</string>
+    <string name="incorrectVerificationCodeError">Sorry, the entered code was incorrect. Please try again.</string>
+    <string name="sendNewCodeOption">Send new code</string>
+    <string name="resendInSOption">Resend in %1$ss</string>
+
+    <!--  Create Username Page  -->
+    <string name="createUsernamePageTitle">Username</string>
+    <string name="createUsernamePagePrompt">Create your username &amp;\ncontinue to join Totals!</string>
+    <string name="createUsernamePageDetails">Usernames can only contain a\-z, 0\-9,\nunderscores, and periods.</string>
+    <string name="createUsernameFieldHint">Your username</string>
+    <string name="usernameAvailableMessage">Username is available!</string>
+    <string name="usernameTakenError">Sorry, that username is already taken. Please try another.</string>
+
+    <!--  Nav Titles  -->
+    <string name="navTitleSettings">Settings</string>
+    <string name="navTitleShared">Shared to Me</string>
+    <string name="navTitleMe">Me</string>
+
+    <!--  Empty container visual  -->
+    <string name="emptyGoalsPageMessage">Goals you\'ve created will appear here</string>
+    <string name="emptySharedPageMessage">Profiles shared to you will appear here</string>
+    <string name="emptyTotalsPageMessage">No posts to show yet</string>
+    <string name="emptyLikesPageMessage">No post likes to show yet</string>
+    <string name="emptySearchPageMessage">No users were found from that search</string>
+
+    <!--  Max Characters  -->
+    <integer name="maxUsernameCharacters">20</integer>
+    <integer name="maxNameCharacters">50</integer>
+    <integer name="maxProfileBioCharacters">200</integer>
+    <integer name="maxAmountCharacters">6</integer>
+    <integer name="maxTitleCharacters">50</integer>
+    <integer name="maxPhoneNumberCharacters">100</integer>
+    <integer name="maxSearchCharacters">100</integer>
+    <integer name="maxLabelCharacters">20</integer>
+    <integer name="maxNoteCharacters">500</integer>
+    <integer name="maxReportCharacters">500</integer>
+
+</resources>

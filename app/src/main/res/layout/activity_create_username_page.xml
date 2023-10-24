@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateUsernamePageActivity">
+
+    <LinearLayout
+        android:id="@+id/createUsernamePageParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/_8sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent">
+
+            <LinearLayout
+                android:id="@+id/backButton"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:background="@drawable/transition_button_icon"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_arrow_back_white" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_44sdp"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/_24sdp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:text="@string/createUsernamePageTitle"
+                android:textColor="@color/colorTextSignUpTitle"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <LinearLayout
+                android:id="@+id/moreButton"
+                android:layout_width="@dimen/_36sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_margin="@dimen/_4sdp"
+                android:gravity="center"
+                android:background="@drawable/transition_button_icon"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_margin="@dimen/_8sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ic_more_vert_white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:text="@string/createUsernamePagePrompt"
+            android:textColor="@color/colorTextSelected"
+            android:textSize="@dimen/_18sdp" />
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_margin="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_35sdp"
+            android:hint="@string/createUsernameFieldHint"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/colorTextSignUpFields"
+            android:textColorHint="@color/colorTextHint"
+            android:background="@null"
+            android:maxLength="@integer/maxUsernameCharacters"
+            android:inputType="text|textCapSentences"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789._"/>
+
+        <TextView
+            android:id="@+id/usernameTakenErrorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:text="@string/usernameTakenError"
+            android:textColor="@color/colorTextError"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/usernameAvailableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:text="@string/usernameAvailableMessage"
+            android:textColor="@color/color_theme"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:text="@string/createUsernamePageDetails"
+            android:textColor="@color/colorLightText"/>
+
+        <LinearLayout
+            android:id="@+id/continueButtonDisabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/layout_button_disabled">
+
+            <TextView
+                android:id="@+id/disabledContinueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/option_continue"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorTextButtonDisabled"/>
+
+            <ProgressBar
+                android:id="@+id/progressCircle"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:indeterminateDrawable="@drawable/progress_circle"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/continueButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:padding="@dimen/_8sdp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/transition_button_colored"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/continueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:text="@string/option_continue"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorTextButtonColored"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

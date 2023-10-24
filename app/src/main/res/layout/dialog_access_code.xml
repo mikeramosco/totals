@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_20sdp"
+    android:background="@drawable/rounded_dialog">
+
+    <LinearLayout
+        android:id="@+id/noteLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/layout_rounded_border"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/noteField"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:gravity="start"
+            android:textSize="@dimen/_12sdp"
+            android:hint="Resolved report note"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/colorTextHint"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:text="ACCESS CODE"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/_18sdp" />
+
+    <EditText
+        android:id="@+id/accessCodeField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="@string/enterVerificationCodeFieldHint"
+        android:inputType="textPassword"
+        android:maxLength="6"
+        android:textColor="@color/colorTextSignUpFields"
+        android:textColorHint="@color/colorTextHint"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/_35sdp" />
+
+</LinearLayout>

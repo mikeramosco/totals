@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/white</color>
+    <color name="color_primary_dark">@color/black</color>
+    <color name="color_accent_light">@color/gray2</color>
+    <color name="color_accent">@color/gray3</color>
+    <color name="color_accent_dark">@color/gray4</color>
+    <color name="color_theme">#3cb89b</color>
+    <color name="color_theme_dark">#3e8575</color>
+    <color name="color_alert">@android:color/holo_red_light</color>
+
+    <color name="color_transparent_gray">#6f666666</color>
+    <color name="color_transparent_black">#6f000000</color>
+    <color name="color_transparent_blac">#30000000</color>
+
+    <color name="colorBackground">@color/color_primary_dark</color>
+    <color name="colorBackgroundDialog">@color/color_accent_dark</color>
+    <color name="colorBackgroundDialogBottomsheet">@color/color_accent_dark</color>
+
+    <color name="colorLightText">@color/gray_light</color>
+    <color name="colorDividerLine">@color/color_accent_dark</color>
+    <color name="colorDividerLineDialog">@color/colorButtonPressed</color>
+
+    <color name="colorButtonPrimary">@color/color_theme</color>
+    <color name="colorButtonPrimaryPressed">@color/color_theme_dark</color>
+    <color name="colorButtonPressed">@color/color_accent_light</color>
+    <color name="colorButtonTransparentPressed">@color/color_accent</color>
+    <color name="colorButton">@color/color_accent</color>
+
+    <color name="colorTextPrimary">@color/white</color>
+    <color name="colorTextAccent">@color/color_theme</color>
+    <color name="colorTextSelected">@color/white</color>
+    <color name="colorTextOption">@color/colorLightText</color>
+    <color name="colorTextTitle">@color/white</color>
+    <color name="colorTextSectionTitle">@color/colorLightText</color>
+    <color name="colorTextLogo">@color/colorTextAccent</color>
+    <color name="colorTextSignUpFields">@color/colorTextLogo</color>
+    <color name="colorTextSignUpTitle">@color/colorLightText</color>
+    <color name="colorTextHint">@color/colorLightText</color>
+    <color name="colorTextDetails">@color/colorLightText</color>
+    <color name="colorTextButtonColored">@color/black</color>
+    <color name="colorTextButtonDisabled">@color/gray1</color>
+    <color name="colorTextButton">@color/white</color>
+    <color name="colorTextError">@android:color/holo_red_dark</color>
+    <color name="colorTextDialog">@color/white</color>
+
+    <color name="black">@android:color/black</color>
+    <color name="white">@android:color/white</color>
+    <color name="gray_light">#86878C</color>
+    <color name="gray1">#666666</color>
+    <color name="gray2">#555555</color>
+    <color name="gray3">#424242</color>
+    <color name="gray4">#292929</color>
+    <color name="gray5">#111111</color>
+</resources>

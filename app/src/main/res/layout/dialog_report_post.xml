@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_10sdp"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_20sdp"
+    android:background="@drawable/rounded_dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="@string/reportPostPrompt"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:text="@string/reportInfo"
+        android:textColor="@color/colorTextSelected"
+        android:textSize="@dimen/_12sdp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:background="@drawable/layout_rounded_border"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/reportField"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:gravity="start"
+            android:textSize="@dimen/_12sdp"
+            android:hint="@string/reportHint"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/colorTextHint"
+            android:maxLength="@integer/maxReportCharacters"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/disabledButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/layout_button_disabled"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:indeterminateDrawable="@drawable/progress_circle"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/transition_button_colored">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/option_report"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorTextButtonColored"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/option_cancel"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_14sdp"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_14sdp"
+    android:paddingEnd="@dimen/_20sdp"
+    android:background="@drawable/rounded_dialog">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_12sdp"
+        android:background="@drawable/layout_rounded_border"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/noteField"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:gravity="start"
+            android:textSize="@dimen/_12sdp"
+            android:hint="@string/addNoteHint"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:textColorHint="@color/colorTextHint"
+            android:maxLength="@integer/maxNoteCharacters"
+            android:background="@null"/>
+
+        <LinearLayout
+            android:id="@+id/saveButton"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:gravity="center"
+            android:background="@drawable/transition_button_icon_colored">
+
+            <ImageView
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_check" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

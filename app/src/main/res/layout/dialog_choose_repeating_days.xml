@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_14sdp" android:paddingStart="@dimen/_18sdp"
+    android:paddingEnd="@dimen/_18sdp" android:paddingBottom="@dimen/_10sdp"
+    android:background="@drawable/rounded_dialog">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="@dimen/_18sdp"
+        android:text="@string/repeatEveryString"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sundayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/sunString"
+            android:textColor="@color/colorLightText"/>
+
+        <TextView
+            android:id="@+id/mondayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/monString"
+            android:textColor="@color/colorLightText"/>
+
+        <TextView
+            android:id="@+id/tuesdayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/tueString"
+            android:textColor="@color/colorLightText"/>
+
+        <TextView
+            android:id="@+id/wednesdayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/wedString"
+            android:textColor="@color/colorLightText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/thursdayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/thuString"
+            android:textColor="@color/colorLightText"/>
+
+        <TextView
+            android:id="@+id/fridayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/friString"
+            android:textColor="@color/colorLightText"/>
+
+        <TextView
+            android:id="@+id/saturdayOption"
+            android:background="@drawable/ic_circle_outline_gray"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_12sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/satString"
+            android:textColor="@color/colorLightText"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saveButtonDisabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/layout_button_disabled">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/option_save"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorTextButtonDisabled"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:padding="@dimen/_8sdp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/transition_button_colored"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:text="@string/option_save"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorTextButtonColored"/>
+
+    </LinearLayout>
+
+</LinearLayout>
